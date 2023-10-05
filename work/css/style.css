@@ -1,5 +1,5 @@
 @charset "UTF-8";
-/*  */
+
 input, select, button {
   appearance: none; /*フォーム特有のスタイルを打ち消す appearance:フォーム欄で使用するラジオボタンや送信ボタンに標準搭載されているCSSを、真似したり消すことができる*/
   -webkit-appearance: none; /*-webkit-：Google Chrome/Safari対応*/
@@ -31,7 +31,7 @@ input, select, button {
   font-size: 24px;
   text-align: center;
 }
-.content_title {ß
+.content_title {
   font-size: 18px;
   color: #000000;
 }
