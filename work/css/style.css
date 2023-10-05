@@ -31,7 +31,7 @@ input, select, button {
   font-size: 24px;
   text-align: center;
 }
-.content_title {
+.content_title {ß
   font-size: 18px;
   color: #000000;
 }
@@ -177,6 +177,5 @@ input, select, button {
 .link-color {
   color: #0170bf;
   text-decoration: none;
-}
-
+}ß
 
