@@ -20,15 +20,15 @@
           <div class="personal_content">
             <h3 class="content_title">個人情報</h3>
             <div class="label_section">
-              <label class="label_text" for="family_name">名字<span class="required">※</span></label>
+              <label class="label_text" for="family_name">名字 <span class="required">※</span></label>
               <input class="input_area" id="family_name" type="text" name="name" autocomplete="family-name" required>
             </div>
             <div class="label_section">
-              <label class="label_text" for="given_name">名前<span class="required">※</span></label>
+              <label class="label_text" for="given_name">名前 <span class="required">※</span></label>
               <input class="input_area" id="given_name" type="text" name="name" autocomplete="given-name" required>
             </div>
             <div class="label_section">
-              <label class="label_text">生年月日<span class="required">※</span></label>
+              <label class="label_text">生年月日 <span class="required">※</span></label>
               <div class="select_area is_flex">
                 <div class="select_unit">
                   <select class="input_area" name="year">
@@ -83,7 +83,7 @@
               </div>
             </div>
             <div class="label_section">
-              <p class="label_text">性別<span class="required">※</span></p>
+              <p class="label_text">性別 <span class="required">※</span></p>
               <div class="gender_area">
                 <label class="gender_element">
                   <input class="gender_content" type="radio" name="gender" value="man">
@@ -101,50 +101,52 @@
             </div>
             <div class="label_section">
               <label class="label_text">職業</label>
-              <div class="select_unit">
-                <select class="input_area" name="work">
-                  <option value disabled selected>選択してください</option>
-                  <option value>学生</option>
-                  <option value>会社員</option>
-                  <option value>主婦</option>
-                  <option value>その他</option>
-                </select>
+              <div class="select_area">
+                <div class="select_unit">
+                  <select class="input_area" name="work">
+                    <option value disabled selected>選択してください</option>
+                    <option value>学生</option>
+                    <option value>会社員</option>
+                    <option value>主婦</option>
+                    <option value>その他</option>
+                  </select>
+                </div>
               </div>
             </div>
           </div>
           <div class="account_content">
             <h3 class="content_title">アカウント情報</h3>
             <div class="label_section">
-              <label class="label_text" for="account_name">アカウント名<span class="required">※</span><label>
+              <label class="label_text" for="account_name">アカウント名 <span class="required">※</span><label>
                   <input class="input_area" id="account_name" type="text" required>
             </div>
             <div class="label_section">
-              <label class="label_text" for="email">メールアドレス<span class="required">※</span><label>
+              <label class="label_text" for="email">メールアドレス <span class="required">※</span><label>
                   <input class="input_area" id="email" type="email" antocomplete="email" required>
             </div>
             <div class="label_section">
-              <label class="label_text" for="password">パスワード<span class="required">※</span><label>
+              <label class="label_text" for="password">パスワード <span class="required">※</span><label>
                   <input class="input_area" id="password" type="password" required>
             </div>
             <div class="label_section">
-              <label class="label_text" for="duplication_password">確認用パスワード<span class="required">※</span><label>
+              <label class="label_text" for="duplication_password">確認用パスワード <span class="required">※</span><label>
                   <input class="input_area" id="duplication_password" type="password" required>
             </div>
             <div class="contact_content">
               <h3 class="content_title">連絡先</h3>
               <div class="label_section">
-                <label class="label_text" for="address">住所<span class="required">※</span><label>
+                <label class="label_text" for="address">住所 <span class="required">※</span><label>
                     <input class="input_area" id="address" type="text" required>
               </div>
               <div class="label_section">
-                <label class="label_text" for="tel">電話番号<span class="required">※</span><label>
+                <label class="label_text" for="tel">電話番号 <span class="required">※</span><label>
                     <input class="input_area" id="tel" type="tel" actocomplete="tel" required>
               </div>
               <div class="subscription_content">
-                <h3 class="content_title">購買情報</h3>
+                <h3 class="content_title">購読情報</h3>
                 <div class="label_section subscription_unit">
                   <input type="checkbox" name="subscription" value="email-magazine" id="email-magazine">
-                  <label class="label__text subscription_label" for="email-magazine">メールマガジン</label>
+                  <label class="label_text subscription_label" for="email-magazine">メールマガジン</label>
                 </div>
                 <div class="label_section subscription_unit">
                   <input class="subscription_checkbox" type="checkbox" name="subscription" value="coupon" id="coupon">
@@ -153,10 +155,7 @@
               </div>
               <div class="submit_content">
                 <button class="btn btn_submit" type="submit">アカウント作成</button>
-                <p class="other-text">アカウント作成することにより、
-                  <a class="link-color" href="#">利用規約</a>と
-                  <a class="link-color" href="#">プライバシーポリシー</a>に同意するものとします。
-                </p>
+                <p class="other-text">アカウントを作成することにより、<a class="link-color" href="#">利用規約</a>と<a class="link-color" href="#">プライバシーポリシー</a>に同意するものとします。</p>
               </div>
         </form>
       </div>
